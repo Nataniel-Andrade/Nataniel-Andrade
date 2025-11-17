@@ -31,26 +31,31 @@ Linux • Windows • Git/GitHub • Agile (Scrum & Kanban) • MS Office • Ne
 **Spring Framework • Thymeleaf • PostgreSQL • Cryptography**  
 End-to-end encrypted communication platform using RSA, SHA-256 and Diffie–Hellman key exchange.
 
-🔗 *Repository:* (add link)
+🔗 *Repository:* https://github.com/Nataniel-Andrade/Chat_com_criptografia-Frontend (backend repo is storaged locally)
 
 ---
 
 ### 🎫 Event Management Web Platform  
-**React • TypeScript • TailwindCSS • Spring Framework • PostgreSQL**  
-Full-stack event publication and ticket sales system for buyers and promoters.
+**ReactJS • TypeScript • TailwindCSS **  
+A Complete Front-end event publication and ticket sales system for buyers and promoters.
 
-🔗 *Repository:* (add link)
+🔗 *Repository:* https://github.com/AbilioBavo/EventHub_Frontend
 
 ---
 
-## 📊 GitHub Stats
+### 📰 NewsManager API  
+**Spring Boot • REST API • JWT Authentication • Role-Based Access Control**  
+A robust REST API for managing news articles, categories, comments and user reactions.  
+Includes JWT authentication, secure role-based access control (Admin/Editor/User) and well-structured endpoints for publishing and interacting with journalistic content.
 
-<p align="left">
+🔗 *Repository:* https://github.com/Didyon-Mondlhane/news-api
+
+
+<!-- <p align="left">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Nataniel-Andrade&show_icons=true&hide_border=true&count_private=true&theme=tokyonight"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nataniel-Andrade&layout=compact&hide_border=true&theme=tokyonight"/>
-</p>
+</p> -->
 
----
 
 ## 📬 Contact  
 📞 **(+258) 84 236 21 80 | 86 154 70 71**  

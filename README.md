@@ -36,7 +36,7 @@ End-to-end encrypted communication platform using RSA, SHA-256 and Diffie–Hell
 ---
 
 ### 🎫 Event Management Web Platform  
-**ReactJS • TypeScript • TailwindCSS **  
+**ReactJS • TypeScript • TailwindCSS**  
 A Complete Front-end event publication and ticket sales system for buyers and promoters.
 
 🔗 *Repository:* https://github.com/AbilioBavo/EventHub_Frontend

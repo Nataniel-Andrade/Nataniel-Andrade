@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+@theme {
+  --font-sans: Inter, system-ui, sans-serif;
+  
+  --color-light-bg: #ffffff;
+  --color-light-text: #000000;
+  --color-dark-bg: #0f172a;
+  --color-dark-text: #f1f5f9;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-slate-900 transition-colors duration-300;
+  }
+
+  html.dark body {
+    @apply bg-slate-950 text-slate-50;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply backdrop-blur-md bg-white/10 dark:bg-slate-900/40 border border-white/10 dark:border-slate-700/50;
+  }
+
+  .card {
+    @apply bg-white dark:bg-slate-900 rounded-lg shadow-lg dark:shadow-slate-900/50;
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideUp {
+  0% { transform: translateY(30px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.6s ease-out;
+}
